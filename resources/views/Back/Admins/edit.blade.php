@@ -1,0 +1,1 @@
+@include('Back.includes.edit', ['model' => ['admin', null], 'editor' => $admin])

@@ -1,0 +1,40 @@
+.sidebar-user-material-content>a>img{
+    width: 80px;
+}
+.navbar-nav>.dropdown-user img{
+    width: 34px;
+    height: 34px;
+}
+.img-responsive{
+    display: inline-block;
+}
+.img-theme{
+    width: 200px;
+    height: 200px;
+}
+@media (max-width: 768px){
+    .panel .tab-content{
+        padding: 10px;
+    }
+    .dataTables_filter input,
+    .dataTables_length .select2-container {
+        width: 170px !important;
+    }
+    .form-group div[class*="col-lg-"]:not(.control-label)+div[class*="col-lg-"]{
+        margin-top: 0;
+    }
+    .panel-heading,
+    .panel-body{
+        padding: 15px;
+    }
+    .media-left,
+    .media>.pull-left{
+        padding-left: 10px;
+    }
+    .form-group{
+        margin-bottom: 10px;
+    }
+    .panel{
+        overflow: hidden;
+    }
+}
